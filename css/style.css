@@ -7,6 +7,11 @@ body {
     color: #1e1e2a;
     overflow-x: hidden;
 }
+@media (max-width: 600px) {
+    .body {
+        overflow-x: hidden;
+    }
+}
 
 .header-container {
     height: 100vh;
