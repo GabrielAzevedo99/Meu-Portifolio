@@ -260,6 +260,7 @@ a:hover {
     .card-text {
         width: 100%;
         text-align: center;
+        margin-left: 2REM;
     }
 }
 
