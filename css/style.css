@@ -11,6 +11,7 @@ body {
 @media (max-width: 600px) {
     .body {
         overflow-x: hidden;
+        padding: 0;
     }
 }
 
@@ -34,7 +35,7 @@ body {
     .header-container {
         background: none;
         background-color: #60e1e0;
-        padding: 15%;
+        padding: 0;
         text-align: center;
     }
 
@@ -215,6 +216,12 @@ a:hover {
     width: 90%;
 }
 
+@media (max-width: 600px) {
+    .card-container {
+        flex-direction: column;
+    }
+}
+
 .card {
     width: 300px;
     height: 300px;
@@ -233,26 +240,28 @@ a:hover {
     transition: 0.5s ease-in-out;
 }
 
-@media (max-width: 600px) {
-    .card-container {
-        flex-direction: column;
-
-    }
-
     .card {
         text-align: center;
        
     }
+
     .card-text{
         text-align:left;
         padding-top: 10%;
     }
-}
+
 
 .card-text {
     width: 40%;
     letter-spacing: 1px;
     color: rgb(109, 109, 109);
+}
+
+@media (max-width: 600px){
+    .card-text {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .card-wrapper {
@@ -364,5 +373,13 @@ body {
   .show-arrow {
     display: block;
   }
+
+  /* leia mais */
+
+  .mais-conteudo {
+    display: none;
+  }
+  
+  
   
   
